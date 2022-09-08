@@ -40,3 +40,6 @@ CREATE TABLE occasions (
   recipe_id INT NOT NULL REFERENCES recipes(recipe_id)
   );
   
+INSERT INTO users (email, password)
+VALUES ('happycamper@funmail.com', 'jrn435nwer');
+
